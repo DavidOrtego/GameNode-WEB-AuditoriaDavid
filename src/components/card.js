@@ -13,10 +13,11 @@ export function createCard(item, type) {
   } else if (type === 'company') {
     badgesHTML += `<span class="px-2 py-1 border border-card-color rounded bg-black/50">${item.country}</span>`;
     badgesHTML += `<span class="px-2 py-1 border border-card-color rounded bg-black/50">Est. ${item.year_founded}</span>`;
+    badgesHTML += `<span class="px-2 py-1 border border-card-color rounded bg-black/50">${item.address}</span>`;
   }
 
   return `
-    <div class="group relative bg-black/40 border border-card-color hover:border-(--green-neon) rounded-lg overflow-hidden flex flex-col transition-all duration-300 hover:shadow-[0_0_15px_rgba(57,255,20,0.2)] h-full">
+    <div class="group relative bg-black/40 border border-card-color hover:border-(--green-neon) rounded-lg overflow-hidden flex flex-col-reverse transition-all duration-300 hover:shadow-[0_0_15px_rgba(57,255,20,0.2)] h-full">
       
       <div class="h-48 w-full bg-gray-900 relative p-4 flex justify-center items-center border-b border-card-color">
          <img src="${imageSrc}" alt="${mainTitle}" class="max-w-full max-h-full object-contain filter group-hover:brightness-125 transition-all duration-500 drop-shadow-[0_0_8px_rgba(255,255,255,0.1)]">

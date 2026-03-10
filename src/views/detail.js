@@ -95,6 +95,7 @@ export async function renderDetail(type, id) {
                     <p class="text-sm text-gray-400 mb-6 uppercase tracking-wider">Sede central: <span class="text-white">${item.country}</span></p>
                     
                     <p class="mb-8 text-lg leading-relaxed text-gray-300">${item.description}</p>
+                    <p class="mb-8 text-lg leading-relaxed text-gray-300">${item.address}</p>
                 </div>
 
                 <div class="grid grid-cols-2 gap-4 bg-black/60 p-6 rounded border border-card-color text-sm">

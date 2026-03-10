@@ -8,6 +8,7 @@ const formTemplates = {
       <div class="col-span-2 md:col-span-1"><label class="text-xs text-(--green-neon)">Año Fundación</label><input type="number" id="year_founded" required class="w-full bg-black/50 border border-card-color text-white p-2 rounded focus:border-(--green-neon) outline-none"></div>
       <div class="col-span-2 md:col-span-1"><label class="text-xs text-(--green-neon)">Sitio Web</label><input type="url" id="website" required class="w-full bg-black/50 border border-card-color text-white p-2 rounded focus:border-(--green-neon) outline-none"></div>
       <div class="col-span-2"><label class="text-xs text-(--green-neon)">URL del Logo</label><input type="url" id="logo" required class="w-full bg-black/50 border border-card-color text-white p-2 rounded focus:border-(--green-neon) outline-none"></div>
+      <div class="col-span-2"><label class="text-xs text-(--green-neon)">Dirección</label><input type="url" id="address" required class="w-full bg-black/50 border border-card-color text-white p-2 rounded focus:border-(--green-neon) outline-none"></div>
       <div class="col-span-2"><label class="text-xs text-(--green-neon)">Descripción</label><textarea id="description" rows="3" required class="w-full bg-black/50 border border-card-color text-white p-2 rounded focus:border-(--green-neon) outline-none"></textarea></div>
     </div>
   `,
