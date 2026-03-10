@@ -13,6 +13,7 @@ export function createCard(item, type) {
   } else if (type === 'company') {
     badgesHTML += `<span class="px-2 py-1 border border-card-color rounded bg-black/50">${item.country}</span>`;
     badgesHTML += `<span class="px-2 py-1 border border-card-color rounded bg-black/50">Est. ${item.year_founded}</span>`;
+    badgesHTML += `<span class="px-2 py-1 border border-card-color rounded bg-black/50">${item.address}</span>`;
   }
 
   return `
